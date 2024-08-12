@@ -34,6 +34,7 @@ generate_story <- function(adjective, verb, adverb, noun, adjective2, noun2, ver
     {noun2}. Together, they {verb2} and created the best Shiny app ever!
   ")
   cat(story, file = stderr())
+  story
 }
 
 add_row_to_db <- function(noun, noun2, verb, verb2, adjective, adjective2, adverb) {
